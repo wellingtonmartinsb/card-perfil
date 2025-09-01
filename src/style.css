@@ -1,0 +1,76 @@
+
+:root {
+    --background-color: hsl(185, 75%, 39%);
+    --text-color: hsl(227, 10%, 46%);
+    --cor-interna: #ffffff;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family:"Kumbh Sans", sans-serif;
+    font-size: 16px;
+}
+
+img {
+    width: 100vw;
+    max-width: 120px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 4px solid #fff;
+} 
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.perfil {
+    margin: 10px 0px;
+}
+
+.age {
+    color: var(--text-color);
+} 
+
+.city {
+    font-weight:400;
+    color: var(--text-color);
+}
+
+.card-perfil {
+    background-color: var(--cor-interna);
+    /* width: 280px;
+    height: 280px; */
+    width: 90%;
+    max-width: 280px;
+    height: auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.list-info {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 20px;
+    /* border-bottom: solid; */
+    padding-bottom: 1px;
+}
+
+.info {
+    padding-top: 50px;
+    border-top: 1px;
+}
+
+.numbers {
+    font-weight: bold;
+}
+
+.numbers-typ {
+    color:var(--text-color);
+}
+
